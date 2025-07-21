@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: 'Nelphim';
+    src: url('/fonts/Nelphim-Regular.woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-VariableFont_wght.ttf');
+    font-display: swap;
+}
+
+@theme inline {
+    --font-nelphim: 'Nelphim';
+    --font-raleway: 'Raleway'
+}
