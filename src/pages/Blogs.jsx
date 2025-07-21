@@ -1,3 +1,5 @@
+import Button from "../components/Button";
+
 const Blogs = () => {
   return (
     <section className="min-h-screen py-[10vw] bg-[#918E6C] flex flex-col items-center justify-center px-10">
@@ -59,6 +61,29 @@ const Blogs = () => {
             </div>
         </div>
       </div>
+      <div className="grid grid-cols-3 gap-x-10 mt-[10vw] w-full">
+        <div className="col-span-1">
+          <div className="w-full flex justify-center h-full items-center bg-[#B2B2B2] pt-[2vw] pb-[4vw]">
+          <img src="/assets/Logo.svg" alt="PrimePro Logo" className="w-[14vw]" />
+          </div>
+        </div>
+        <div className="col-span-1">
+          <div className="w-full flex justify-center h-full items-center bg-[#B2B2B2] pt-[2vw] pb-[4vw]">
+          <img src="/assets/Logo.svg" alt="PrimePro Logo" className="w-[14vw]" />
+          </div>
+        </div>
+        <div className="col-span-1">
+          <div className="w-full flex justify-center h-full items-center bg-[#B2B2B2] pt-[2vw] pb-[4vw]">
+          <img src="/assets/Logo.svg" alt="PrimePro Logo" className="w-[14vw]" />
+          </div>
+        </div>
+      </div>
+      <Button
+      text="view all vlogs"
+      className="mt-[10vw]"
+      bgColor="#E8500E"
+      textColor="#DDDB00"
+      />
     </section>
   );
 };

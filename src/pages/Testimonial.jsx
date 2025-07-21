@@ -1,7 +1,7 @@
 
 const Testimonial = () => {
   return (
-    <section className="bg-[#918E6C] py-[10vw] flex flex-col justify-center items-center">
+    <section className="bg-[#918E6C] pb-[10vw] flex flex-col justify-center items-center">
       <div className="text-center font-raleway text-[0.8vw] text-white">
         <h1>HEALTH PRODUCTS FROM FARMERS FIRST WORKED WONDERS IN MY LIFE.</h1>
         <h1>
