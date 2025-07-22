@@ -21,7 +21,7 @@ const GrowTogether = () => {
         className="h-[30vw] relative -mt-[15vw] z-[1] left-1/2 -translate-x-[50%]"
       />
 
-      <button className="uppercase text-[1vw] text-[#DDDB00] bg-[#B2B2B2] py-4 w-full max-w-[16vw] absolute right-0 bottom-0">
+      <button className="uppercase text-[1vw] text-[#DDDB00] bg-[#B2B2B2] py-4 w-full max-w-[16vw] absolute right-[10vw] bottom-[6vw]">
         explore now
       </button>
     </section>

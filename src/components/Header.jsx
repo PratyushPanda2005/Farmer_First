@@ -30,7 +30,7 @@ const Header = () => {
         <ul className="flex uppercase text-[#3A4510] text-[1vw] ml-4 space-x-[2.5vw] font-raleway">
           <li>login</li>
           <li>language</li>
-          <li >join with us</li>
+          <li >shop now</li>
           
           <li>farm & farmers</li>
           <li>home</li>
@@ -80,6 +80,14 @@ const Header = () => {
                       className="block px-6 py-2 hover:bg-gray-100 transition-colors duration-150 text-[1vw] font-raleway"
                     >
                      OUTLETS
+                    </a>
+                  </li>
+                  <li>
+                    <a 
+                      href="#" 
+                      className="block px-6 py-2 hover:bg-gray-100 transition-colors duration-150 text-[1vw] font-raleway"
+                    >
+                     JOIN WITH US
                     </a>
                   </li>
                 </ul>
