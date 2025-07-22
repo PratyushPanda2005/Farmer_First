@@ -14,6 +14,12 @@ const GrowTogether = () => {
           <p>WE OFFER NUMEROUS WAYS TO GET INVOLVED AND LEARN</p>
           <p>ABOUT THE IMPACT OF YOUR FOOD CHOICES.</p>
         </div>
+        <div className="absolute top-[23vw] left-[30vw] -translate-x-[50%] -translate-y-[50%] text-[5vw] z-10 text-[#DDDB00] uppercase font-nelphim">
+         <h1>growing</h1>
+        </div>
+        <div className="absolute top-[26vw] right-[6vw] -translate-x-[50%] -translate-y-[50%] text-[5vw] z-10 text-[#DDDB00] uppercase font-nelphim">
+         <h1>together</h1>
+        </div>
       </div>
       <img
         src="/assets/Grow_Together(2).png"
