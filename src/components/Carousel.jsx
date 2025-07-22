@@ -27,7 +27,9 @@ const Carousel = () => {
   const [swiperInitialized, setSwiperInitialized] = useState(false)
   
   return (
-    <div className='flex gap-4 w-full justify-center items-center'>
+    <div className='flex w-full justify-center items-center'>
+      <div className='w-full max-w-7xl flex justify-center items-center gap-4'>
+
       <button ref={prevRef} className="bg-white px-3 py-1 rounded-full hover:bg-gray-100 transition">{'<'}</button>
       
       <Swiper
@@ -49,6 +51,7 @@ const Carousel = () => {
       </Swiper>
       
       <button ref={nextRef} className="bg-white px-3 py-1 rounded-full hover:bg-gray-100 transition">{'>'}</button>
+      </div>
     </div>
   )
 }
