@@ -1,26 +1,35 @@
 @import "tailwindcss";
 
-
 @font-face {
-    font-family: 'Nelphim';
-    src: url('/fonts/Nelphim-Regular.woff');
-    font-display: swap;
+  font-family: "Nelphim";
+  src: url("/fonts/Nelphim-Regular.woff");
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Raleway';
-    src: url('/fonts/Raleway-VariableFont_wght.ttf');
-    font-display: swap;
+  font-family: "Raleway";
+  src: url("/fonts/Raleway-VariableFont_wght.ttf");
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'ArgueDEMO';
-    src: url('/fonts/ArgueDEMO.woff');
-    font-display: swap;
+  font-family: "ArgueDEMO";
+  src: url("/fonts/ArgueDEMO.woff");
+  font-display: swap;
 }
 
 @theme inline {
-    --font-nelphim: 'Nelphim';
-    --font-raleway: 'Raleway';
-    --font-argue: 'ArgueDEMO';
+  --font-nelphim: "Nelphim";
+  --font-raleway: "Raleway";
+  --font-argue: "ArgueDEMO";
+}
+
+@theme {
+  --color-orange: #e8500e;
+  --color-yellow: #dddb00;
+  --color-gray: #6a6a6a;
+  --color-darkgreen: #3a4510;
+  --color-lightgray: #b2b2b2;
+  --color-forestgreen: #918e6c;
+  --color-skin: #B19B8C;
 }

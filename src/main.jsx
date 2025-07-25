@@ -3,7 +3,9 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './Layout.jsx'
-import Home from './Home.jsx'
+import Home from './Home/Home.jsx'
+import Product from './Product/Product.jsx'
+import FarmerFirst from './FarmerFirst/FarmerFirst.jsx'
 
 const router = createBrowserRouter([
   {
@@ -13,7 +15,15 @@ const router = createBrowserRouter([
       {
         path: "",
         element: <Home/>
-      }
+      },
+      {
+        path: "/products",
+        element: <Product/>
+      },
+      {
+        path: "/farmerfirst",
+        element: <FarmerFirst/>
+      },
     ]
   }
 ])
