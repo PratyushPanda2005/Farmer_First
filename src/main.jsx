@@ -7,6 +7,7 @@ import Home from './Home/Home.jsx'
 import Product from './Product/Product.jsx'
 import FarmerFirst from './FarmerFirst/FarmerFirst.jsx'
 import ProductCatalog from './ProductCatalog/ProductCatalog.jsx'
+import ProductDetail from './ProductDetail/ProductDetail.jsx'
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/product-catalog",
         element: <ProductCatalog/>
+      },
+      {
+        path: "/product/:id",
+        element: <ProductDetail/>
       },
     ]
   }

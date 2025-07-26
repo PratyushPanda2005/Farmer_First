@@ -10,6 +10,7 @@ const ProductCatalog = () => {
         {products.map((product) => (
           <ProductCard
           key={product.id}
+          id={product.id}
           img={product.img}
           name={product.name}
           price={product.price}
