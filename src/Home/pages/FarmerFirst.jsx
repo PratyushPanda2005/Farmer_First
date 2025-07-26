@@ -7,10 +7,10 @@ const FarmerFirst = () => {
         <img src="/assets/Farmer_First.png" alt="" className="w-full" />
         <div className="absolute top-0 left-0 w-full h-full py-[8vw] flex flex-col items-center justify-between">
           <div className="flex gap-[16vw] justify-center">
-            <h1 className="uppercase font-nelphim text-[6vw] text-[#DDDB00]">
+            <h1 className="uppercase font-nelphim text-[6vw] text-[#DDDB00] tracking-[0.01em]">
               farmer
             </h1>
-            <h1 className="uppercase font-nelphim text-[6vw] text-[#DDDB00]">
+            <h1 className="uppercase font-nelphim text-[6vw] text-[#DDDB00] tracking-[0.01em]">
               first
             </h1>
           </div>

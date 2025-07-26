@@ -6,10 +6,10 @@ const Products = () => {
       <section className=" bg-[#B2B2B2] relative flex justify-center py-[12vw] px-20">
         <div className="w-full h-full flex flex-col gap-10">
           <div className="text-center">
-            <h1 className="text-[6vw] leading-[100%] text-center uppercase text-[#4E5B20] font-nelphim">
+            <h1 className="text-[6vw] leading-[100%] text-center uppercase text-[#4E5B20] font-nelphim tracking-[0.01em]">
               from our fields
             </h1>
-            <h1 className="text-[6vw] leading-[100%] text-center uppercase text-[#4E5B20] font-nelphim">
+            <h1 className="text-[6vw] leading-[100%] text-center uppercase text-[#4E5B20] font-nelphim tracking-[0.01em]">
               to your fork
             </h1>
           </div>
@@ -32,7 +32,7 @@ const Products = () => {
           </div>
 
           <div className="w-full flex justify-center items-center mt-20">
-            <button className="uppercase text-[1vw] text-[#DDDB00] bg-[#E8500E] py-4 w-full max-w-[16vw]">
+            <button className="uppercase text-[1vw] text-[#DDDB00] bg-[#E8500E] py-4 w-full max-w-[16vw] font-raleway">
               view all products
             </button>
           </div>

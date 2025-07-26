@@ -20,7 +20,7 @@ const ProductCard = ({ img, name, weight, price }) => {
           <div className="likes flex gap-[0.8vw] items-center">
             <img 
               src="/product-catalog/icon-feather-heart.svg" 
-              className={`h-[2vw] cursor-pointer transition-transform duration-100 ${
+              className={`h-[1.6vw] cursor-pointer transition-transform duration-100 ${
                 isAnimating ? "scale-125" : "scale-100"
               }`} 
               onClick={handleClick} 

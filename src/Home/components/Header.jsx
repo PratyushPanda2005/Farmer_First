@@ -113,20 +113,20 @@ const Header = () => {
             onClick={toggleSearch}
             className="flex items-center gap-4  cursor-pointer"
           >
-            <span className="h-[1em] w-[1em] flex items-center justify-center">
-              <Search className="h-[1em] w-[1em]" color="#3A4510" />
+            <span className="h-[1.2vw] flex items-center justify-center">
+              <Search className="h-full" color="#3A4510" />
             </span>
             <h1 className="uppercase text-[#3A4510] text-[1vw] font-light">
               search
             </h1>
             {isSearchOpen && (
               <div className="absolute top-full left-0 bg-[#6A6A6A] shadow-lg z-50 w-[100vw] p-[8vw] flex justify-between items-center duration-300 transition-all">
-                <div className="max-w-5xl w-full flex justify-between border-b pb-2 border-[#B2B2B2]">
+                <div className=" w-full flex justify-between border-b pb-2 border-[#B2B2B2]">
                 <h1 className="uppercase text-[#B2B2B2] text-[1vw] font-light">
                   search
                 </h1>
-                <span className="h-[1em] w-[1em] flex items-center justify-center">
-                  <Search className="h-[1em] w-[1em]" color="#B2B2B2" />
+                <span className="h-[1.2vw] flex items-center justify-center">
+                  <Search className="h-full" color="#B2B2B2" />
                 </span>
                 </div>
               </div>

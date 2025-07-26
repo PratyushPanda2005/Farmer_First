@@ -5,10 +5,10 @@ const Tourism = () => {
     <section className="min-h-screen flex flex-col gap-8 relative bg-[#918E6C] px-10">
       <div className="w-full h-[90vh] bg-[#B19B8C] p-[6vw] flex justify-between">
         <div className="w-1/2">
-          <h1 className="text-[6vw] leading-[100%] uppercase text-[#4E5B20] font-argue">
+          <h1 className="text-[6vw] leading-[100%] uppercase text-[#4E5B20] font-argue tracking-[0.01em]">
             happiness
           </h1>
-          <h1 className="text-[6vw] leading-[100%] uppercase text-[#4E5B20] font-argue">
+          <h1 className="text-[6vw] leading-[100%] uppercase text-[#4E5B20] font-argue tracking-[0.01em]">
             tourism
           </h1>
           <div className="mt-[4vw] font-raleway font-light flex flex-col gap-2 text-[#4E5B20]">
