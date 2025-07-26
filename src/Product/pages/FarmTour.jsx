@@ -11,8 +11,15 @@ const FarmTour = () => {
         <div className="bg-[#3A4510] h-[0.1px] w-[8vw] mt-4" />
       </div>
       <div className='flex flex-col justify-center items-center mt-[8vw] gap-[3vw]'>
-        <img src='/product/kanthaloor.png' alt='KANTHALLOOR' className='h-[50vw] object-cover object-center' />
-        <img src='/product/wayanad.png' alt='KANTHALLOOR' className='h-[50vw] object-cover object-center' />
+        <div className='h-[50vw] relative'>
+        <img src='/product/kanthaloor.png' alt='KANTHALLOOR' className='h-full object-cover object-center' />
+        <h1 className='absolute top-[4vw] left-1/2 -translate-x-[50%] text-darkgreen font-raleway text-[1.5vw] uppercase'>KANTHALLOOR</h1>
+        </div>
+        <div className='h-[50vw] relative'>
+        <img src='/product/wayanad.png' alt='KANTHALLOOR' className='h-full object-cover object-center' />
+        <h1 className='absolute top-[4vw] left-1/2 -translate-x-[50%] text-darkgreen font-raleway text-[1.5vw] uppercase'>WAYANAD</h1>
+        </div>
+        
       </div>
          <Button
       text="explore now"
